@@ -1,3 +1,93 @@
+/*---------------- CSS for course overview page ----------------*/
+/* Set color for the section title link */
+.section-summary .section-title a {
+    color: white !important;
+    /* Set color to white */
+}
+
+/* Style for section title */
+.section-summary .section-title {
+    text-overflow: ellipsis;
+    /* Show "..." if text overflows */
+    word-wrap: break-word;
+    /* Break words if necessary */
+    overflow: hidden;
+    /* Hide overflowing content */
+    height: 2.4em;
+    /* Set height of section title */
+    line-height: 1.2em;
+    /* Set line height of section title */
+}
+
+/* Remove margin from summary text */
+.section-summary .summarytext {
+    margin: 0 !important;
+}
+
+/* Set color for activity count */
+.course-content .section-summary .section-summary-activities .activity-count {
+    color: white;
+    /* Set color to white */
+}
+
+/* Style for right side of section summary */
+.section-summary .mdl-right {
+    text-align: center;
+    /* Center align text */
+    /* color: white; */
+    /* Commented out color property */
+    /* float: right; */
+    /* Commented out float property */
+    display: inline-block;
+    /* Display as inline block */
+    width: 50%;
+    /* Set width to 50% */
+    /* text-align: end; */
+    /* Commented out text-align property */
+    height: 14px;
+    /* Set height to 14px */
+    float: left;
+    /* Set to float left */
+}
+
+/* Style for section title */
+.section-summary .section-title {
+    text-align: center;
+    /* Center align text */
+}
+
+/* Style for section summary container */
+.section-summary {
+    width: 400px;
+    /* Set width to 400px */
+    float: left;
+    /* Set to float left */
+    margin: 10px;
+    /* Set margin to 10px */
+    padding: 0;
+    /* Remove padding */
+    background-color: #007889;
+    /* Set background color */
+    border-radius: 20px;
+    /* Set border radius */
+}
+
+/* Hide overflow for some content */
+.section-summary .no-overflow {
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+/* Style for fluid image */
+.section-summary .img-fluid {
+    min-width: 192%;
+    /* Set minimum width to 192% */
+    margin-left: -84%;
+    /* Set left margin to -84% */
+}
+
+
+
 /*------------------------- cog link at top right for user ---------------------*/
 #action-menu-toggle-2 {
     color: white;
