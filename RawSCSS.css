@@ -1,6 +1,6 @@
 /*---------------- CSS for course overview page ----------------*/
 /* Set color for the section title link */
-.section-summary .section-title a {
+.course-section-header .sectionname a {
     color: white !important;
     /* Set color to white */
 }
@@ -48,6 +48,11 @@
     /* Set height to 14px */
     float: left;
     /* Set to float left */
+}
+
+/* Remove module/topic numbering as they conflict with our numbering */
+.sno {
+    display: none;
 }
 
 /* Style for section title */
@@ -119,6 +124,34 @@
 /*-------------------------quizzes - matching questions ---------------------*/
 .formulation select {
     margin: 5px;
+}
+
+/*-------------------------quizzes - feedback section-------------*/
+
+
+.quiz-feedback table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.quiz-feedback th {
+    color: #00788a;
+    background-color: white;
+}
+
+
+.quiz-feedback caption {
+    color: white;
+}
+
+.c2m6-quiz-summary-table {
+    table-layout: fixed;
+    overflow-x: scroll;
+    font-size: 12pt;
 }
 
 /*-------------------------navigation drawer ---------------------*/
@@ -338,7 +371,7 @@ h2 {
 }
 
 .NPA-container {
-    width: 1000px;
+    /*  width: 1000px;*/
 }
 
 table {
@@ -450,7 +483,7 @@ blockquote:before {
 
 blockquote:after {
     content: "”";
-    right: -5rem;
+    right: -2rem;
     bottom: 1rem;
 }
 
