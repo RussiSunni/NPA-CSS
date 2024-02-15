@@ -1,45 +1,45 @@
 /* Initial content page, first page user sees */
 .info h3 {
-    font-size: larger!important;
-    font-weight: 500!important;
+  font-size: larger!important;
+  font-weight: 500!important;
 }
 
 
 /*---------------- CSS for course overview page ----------------*/
 /* Set color for the section title link */
 .course-section-header .sectionname a {
-    color: white !important; /* Set color to white */
+  color: white !important; /* Set color to white */
 }
 
 /* Style for section title */
 .section-summary .section-title {
-    text-overflow: ellipsis; /* Show "..." if text overflows */
-    word-wrap: break-word; /* Break words if necessary */
-    overflow: hidden; /* Hide overflowing content */
-    height: 2.4em; /* Set height of section title */
-    line-height: 1.2em; /* Set line height of section title */
+  text-overflow: ellipsis; /* Show "..." if text overflows */
+  word-wrap: break-word; /* Break words if necessary */
+  overflow: hidden; /* Hide overflowing content */
+  height: 2.4em; /* Set height of section title */
+  line-height: 1.2em; /* Set line height of section title */
 }
 
 /* Remove margin from summary text */
 .section-summary .summarytext {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 /* Set color for activity count */
 .course-content .section-summary .section-summary-activities .activity-count {
-    color: white; /* Set color to white */
+  color: white; /* Set color to white */
 }
 
 /* Style for right side of section summary */
 .section-summary .mdl-right {
-    text-align: center; /* Center align text */
-    /* color: white; */ /* Commented out color property */
-    /* float: right; */ /* Commented out float property */
-    display: inline-block; /* Display as inline block */
-    width: 50%; /* Set width to 50% */
-    /* text-align: end; */ /* Commented out text-align property */
-    height: 14px; /* Set height to 14px */
-    float:left; /* Set to float left */
+  text-align: center; /* Center align text */
+  /* color: white; */ /* Commented out color property */
+  /* float: right; */ /* Commented out float property */
+  display: inline-block; /* Display as inline block */
+  width: 50%; /* Set width to 50% */
+  /* text-align: end; */ /* Commented out text-align property */
+  height: 14px; /* Set height to 14px */
+  float:left; /* Set to float left */
 }
 
 /* Remove module/topic numbering as they conflict with our numbering */
@@ -49,28 +49,28 @@ display: none;
 
 /* Style for section title */
 .section-summary .section-title {
-    text-align: center; /* Center align text */
+  text-align: center; /* Center align text */
 }
 
 /* Style for section summary container */
 .section-summary {
-    width: 400px; /* Set width to 400px */
-    float: left; /* Set to float left */
-    margin: 10px; /* Set margin to 10px */
-    padding: 0; /* Remove padding */
-    background-color: #007889; /* Set background color */
-    border-radius: 20px; /* Set border radius */
+  width: 400px; /* Set width to 400px */
+  float: left; /* Set to float left */
+  margin: 10px; /* Set margin to 10px */
+  padding: 0; /* Remove padding */
+  background-color: #007889; /* Set background color */
+  border-radius: 20px; /* Set border radius */
 }
 
 /* Hide overflow for some content */
 .section-summary .no-overflow {
-    overflow: hidden; /* Hide overflowing content */
+  overflow: hidden; /* Hide overflowing content */
 }
 
 /* Style for fluid image */
 .section-summary .img-fluid {
-    min-width: 192%; /* Set minimum width to 192% */
-    margin-left: -84%; /* Set left margin to -84% */
+  min-width: 192%; /* Set minimum width to 192% */
+  margin-left: -84%; /* Set left margin to -84% */
 }
 
 
@@ -87,33 +87,33 @@ background-color: #007087;
 
 /*------------------------- footer card ---------------------*/
 #page-footer {
-  display: none;
+display: none;
 }
 
 /*------------------------- top navigation card (not the nav bar) ---------------------*/
 .card {
-  border: none;
+border: none;
 }
 .breadcrumb {
-  background-color: #ffe9cc;
+background-color: #ffe9cc;
 }
 
 .breadcrumb-item a {
-  color: #344035;
+color: #344035;
 }
 
 /*-------------------------quizzes - matching questions ---------------------*/
 .formulation select {
-  margin: 5px;
+margin: 5px;
 }
 
 /*-------------------------quizzes - feedback section-------------*/
 
 
 .quiz-feedback table, th, td {
-  border: 1px solid;
-  border-collapse: collapse;
-  padding: 5px; 
+border: 1px solid;
+border-collapse: collapse;
+padding: 5px; 
 vertical-align: top;
 }
 
@@ -124,234 +124,239 @@ background-color: white;
 
 
 .quiz-feedback caption {
-  color: white;
+color: white;
 }
 
 
 /*----quizzes finish review button--*/
 .submitbtns .mod_quiz-next-nav {
-    background-color: #007087;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 0.25rem;
+  background-color: #007087;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 0.25rem;
 }
 
 
 /*-------------------------navigation drawer ---------------------*/
 .list-group-item {
-  background-color: #ffe9cc;
+background-color: #ffe9cc;
 }
 
 .list-group-item-action {
-  color: black;
+color: black;
 }
 
 .list-group-item-action:hover,
 .list-group-item-action:focus {
-  background-color: #007087;
-  border-color: #007087;
-  color: #fff;
+background-color: #007087;
+border-color: #007087;
+color: #fff;
 }
 
 #nav-drawer {
-  background-color: #76923c;
+background-color: #76923c;
 }
 
 /*-------------------- page background -------------------------*/
 #page {
-  /*background-color: #b5d7ef;*/
-  background-color: #344035;
+/*background-color: #b5d7ef;*/
+background-color: #344035;
 }
 
 /*-------------------- nav bar -------------------------*/
 .navbar {
-  background-color: #007087 !important;
-  color: white !important;
+background-color: #007087 !important;
+color: white !important;
 }
 
 .site-name {
-  color: white !important;
+color: white !important;
 }
 
 .navbar-light .navbar-nav .nav-link,
 .usertext {
-  color: rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+}
+
+/* For selected navbar tab. */
+.navbar-light .navbar-nav .nav-link.active {
+color: white;
 }
 
 /*-------------------- page links -------------------------*/
 .instancename {
-  font-weight: 500;
-  color: black;
-  font-family: "Open Sans";
+font-weight: 500;
+color: black;
+font-family: "Open Sans";
 }
 
 /*-------------------- course links -------------------------*/
 .coursename .aalink {
-  color: black;
-  font-weight: 500;
-  font-family: Raleway;
+color: black;
+font-weight: 500;
+font-family: Raleway;
 }
 
 /*-------------------- links -------------------------*/
 a:not([class]):focus,
 .activityinstance > a:focus,
 .aalink:focus {
-  outline: none;
-  color: unset;
-  background-color: unset;
-  box-shadow: none;
-  padding: 5px;
+outline: none;
+color: unset;
+background-color: unset;
+box-shadow: none;
+padding: 5px;
 }
 
 .que .outcome {
-  color: white;
-  background-color: #007087;
-  border: none;
+color: white;
+background-color: #007087;
+border: none;
 }
 
 .aalink:focus,
 .activityinstance > a:focus,
 a:not([class]):focus {
-  background-color: #76923c80;
-  border-radius: 5px;
+background-color: #76923c80;
+border-radius: 5px;
 }
 
 .dropdown-item a:hover {
-  color: #212529;
+color: #212529;
 }
 
 .dropdown-item:focus-within a {
-  color: #212529;
+color: #212529;
 }
 
 .NPA-container p {
-  font-size: 14pt;
-  font-family: Raleway;
+font-size: 14pt;
+font-family: Raleway;
 margin-bottom: 1rem!important;
 }
 
 .NPA-container ul {
-  padding-left: 2rem;
+padding-left: 2rem;
 }
 
 .NPA-container li {
-  font-size: 14pt;
+font-size: 14pt;
 }
 
 .NPA-container table {
-  font-size: 14pt;
-  font-family: Raleway;
+font-size: 14pt;
+font-family: Raleway;
 }
 
 .NPA-container th {
-  background-color: #00788a;
-  color: white;
+background-color: #00788a;
+color: white;
 }
 
 .NPA-table,
 .NPA-table th,
 .NPA-table td {
-  border: 1px solid black;
-  border-collapse: collapse;
+border: 1px solid black;
+border-collapse: collapse;
 }
 
 .NPA-table th,
 .NPA-table td {
-  padding: 5px;
+padding: 5px;
 }
 
 h2 {
-  font-size: 22pt;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #007087;
+font-size: 22pt;
+font-family: "Open Sans", sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+color: #007087;
 }
 
 /* h3 {
-    font-weight: 600;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-size: 18pt;
-  } */
-
-.NPA-container h3 {
-  font-size: 18pt;
-  /* color: #006776; */
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  background-color: #007087;
-  color: white;
-  padding: 10px;
-  letter-spacing: 2px;
+  font-size: 18pt;
+} */
+
+.NPA-container h3 {
+font-size: 18pt;
+/* color: #006776; */
+font-weight: 600;
+font-family: "Open Sans", sans-serif;
+text-transform: uppercase;
+background-color: #007087;
+color: white;
+padding: 10px;
+letter-spacing: 2px;
 }
 
 .NPA-container h4 {
-  font-size: 14pt;
-  color: #006776;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+font-size: 14pt;
+color: #006776;
+font-weight: 600;
+font-family: "Open Sans", sans-serif;
 }
 
 .NPA-container a {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 .objective:hover {
-  background-color: #76923c;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
+background-color: #76923c;
+color: white;
+padding: 10px;
+border-radius: 5px;
 }
 
 .tile {
-  height: 200px;
-  padding: 15px 0;
-  border: 1px solid black;
-  width: 20%;
-  font-size: 14pt;
+height: 200px;
+padding: 15px 0;
+border: 1px solid black;
+width: 20%;
+font-size: 14pt;
 }
 
 .topic1 {
-  background-color: #d1e8ec;
-  color: black;
+background-color: #d1e8ec;
+color: black;
 }
 
 .topic1:hover {
-  background-color: #2a4d53;
-  color: white;
+background-color: #2a4d53;
+color: white;
 }
 
 .topic2 {
-  background-color: #c3d7c1;
+background-color: #c3d7c1;
 }
 
 .topic2:hover {
-  background-color: #446640;
-  color: white;
+background-color: #446640;
+color: white;
 }
 
 .topic3 {
-  background-color: sandybrown;
+background-color: sandybrown;
 }
 
 .topic3:hover {
-  background-color: #7b4b22;
-  color: white;
+background-color: #7b4b22;
+color: white;
 }
 
 .topic4 {
-  background-color: #ffeb81;
+background-color: #ffeb81;
 }
 
 .topic4:hover {
-  background-color: #7e6a02;
-  color: white;
+background-color: #7e6a02;
+color: white;
 }
 
 .atto_image_button_text-bottom {
-  margin: 0px;
+margin: 0px;
 }
 
 .NPA-container {
@@ -359,211 +364,211 @@ h2 {
 }
 
 table {
-  font-size: 14pt;
+font-size: 14pt;
 }
 
 #page-header .card-body {
-  /* background-color: #76923c; */
-  background-color: #656263;
+/* background-color: #76923c; */
+background-color: #656263;
 }
 
 .card-body h1 {
-  color: white;
+color: white;
 }
 
 #page-content #region-main {
-  border-color: #007087;
-  border-width: 2px;
-  background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/5/forest-border-preview-edit.png");
-  background-size: cover;
-  background-position: bottom;
+border-color: #007087;
+border-width: 2px;
+background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/5/forest-border-preview-edit.png");
+background-size: cover;
+background-position: bottom;
 }
 
 img {
-  border-radius: 5px;
+border-radius: 5px;
 }
 
 /* next page button */
 .activity-navigation #prev-activity-link,
 .activity-navigation #next-activity-link {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  background-color: #007087;
-  color: white;
-  letter-spacing: 1px;
+font-family: "Open Sans", sans-serif;
+font-weight: 600;
+background-color: #007087;
+color: white;
+letter-spacing: 1px;
 }
 
 /* #next-activity-link:after {
-    content: url("https://npabushwalking.moodlecloud.com/pluginfile.php/164/mod_page/content/25/footprints.png");
-    vertical-align: middle;
-  } */
+  content: url("https://npabushwalking.moodlecloud.com/pluginfile.php/164/mod_page/content/25/footprints.png");
+  vertical-align: middle;
+} */
 
 /*accordion ------------------------------------------------------*/
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 /* active,. */
 .accordion:hover {
-  background-color: #ccc;
+background-color: #ccc;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
 }
 
 /*block quotes -------------------------------------------------------------*/
 
 .quote {
-  font-family: "Special Elite", cursive;
-  background: #fffdf5;
-  color: #3f3f5a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0;
+font-family: "Special Elite", cursive;
+background: #fffdf5;
+color: #3f3f5a;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+margin: 0;
 }
 
 blockquote {
-  font-weight: 100;
-  font-size: 2rem;
-  max-width: 700px;
-  line-height: 1.4;
-  position: relative;
-  margin: 0;
-  padding: 0.5rem;
+font-weight: 100;
+font-size: 2rem;
+max-width: 700px;
+line-height: 1.4;
+position: relative;
+margin: 0;
+padding: 0.5rem;
 }
 
 blockquote:before,
 blockquote:after {
-  position: absolute;
-  color: #f1efe6;
-  font-size: 8rem;
-  width: 4rem;
-  height: 4rem;
+position: absolute;
+color: #f1efe6;
+font-size: 8rem;
+width: 4rem;
+height: 4rem;
 }
 
 blockquote:before {
-  content: "“";
-  left: -5rem;
-  top: -2rem;
+content: "“";
+left: -5rem;
+top: -2rem;
 }
 
 blockquote:after {
-  content: "”";
-  right: -2rem;
-  bottom: 1rem;
+content: "”";
+right: -2rem;
+bottom: 1rem;
 }
 
 cite {
-  line-height: 3;
-  text-align: left;
+line-height: 3;
+text-align: left;
 }
 
 .mySlides {
-  display: none;
+display: none;
 }
 
 .w3-black,
 .w3-hover-black:hover {
-  color: #fff !important;
-  background-color: #000 !important;
+color: #fff !important;
+background-color: #000 !important;
 }
 
 .w3-display-left {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  -ms-transform: translate(-0%, -50%);
+position: absolute;
+top: 50%;
+left: 0%;
+transform: translate(0%, -50%);
+-ms-transform: translate(-0%, -50%);
 }
 
 element.style {
 }
 .w3-black,
 .w3-hover-black:hover {
-  color: #fff !important;
-  background-color: #000 !important;
+color: #fff !important;
+background-color: #000 !important;
 }
 .w3-display-right {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
+position: absolute;
+top: 50%;
+right: 0%;
+transform: translate(0%, -50%);
+-ms-transform: translate(0%, -50%);
 }
 
 .w3-tooltip,
 .w3-display-container {
-  position: relative;
+position: relative;
 }
 
 .que .info {
-  display: none;
+display: none;
 }
 
 /* Quiz styling */
 .que .content {
-  margin: unset;
-  font-family: "Open Sans";
-  font-size: 1.1em;
+margin: unset;
+font-family: "Open Sans";
+font-size: 1.1em;
 }
 
 #region-main-settings-menu.has-blocks,
 #region-main.has-blocks {
-  width: calc(100%);
+width: calc(100%);
 }
 
 [data-region="blocks-column"] {
-  display: none;
+display: none;
 }
 
 .btn-secondary {
-  background-color: #007087;
+background-color: #007087;
 }
 
 /* large portrait tablets*/
 @media only screen and (max-width: 1024px) {
-  .NPA-container {
-    width: 900px;
-  }
+.NPA-container {
+  width: 900px;
+}
 }
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (max-width: 768px) {
-  .NPA-container {
-    width: 694px;
-  }
+.NPA-container {
+  width: 694px;
+}
 }
 
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
-  .NPA-container {
-    width: 340px;
-  }
+.NPA-container {
+  width: 340px;
+}
 }
 
 /* Extra small devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) {
-  .NPA-container {
-    width: 310px;
-  }
+.NPA-container {
+  width: 310px;
+}
 }
 
 /* Competencies page */
