@@ -183,6 +183,29 @@ color: rgba(255, 255, 255, 0.5);
 color: white;
 }
 
+/*-------------------- User menu (Course, Participants, Competencies etc ) -------------------------*/
+[data-key="grades"] {
+  display:none;
+}
+
+[data-key="participants"] {
+  display:none;
+}
+
+.dropdownmoremenu {
+  display:none;
+}
+
+/*-------------------- Below user menu ("Course / Series Introduction" heading)-------------------------*/
+.coursedetails {
+  display:none;
+}
+
+
+/*-------------------- My Courses page-------------------------*/
+/*- hiding the course filter at the top -*/
+div.d-flex[aria-label="Course overview controls"] {display:none !important;}
+
 /*-------------------- page links -------------------------*/
 .instancename {
 font-weight: 500;
